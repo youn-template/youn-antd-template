@@ -1,0 +1,19 @@
+html{
+  font-size: 62.5%;
+}
+html body #root .App{
+  min-height: 100vh;
+}
+*{
+  box-sizing: border-box !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 任何形式与业务相关的样式定义禁止出现在当前样式文件中 */

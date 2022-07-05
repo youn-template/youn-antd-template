@@ -1,0 +1,88 @@
+{
+  "name": "react-ts-basic",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@amap/amap-jsapi-types": "^0.0.8",
+    "@antv/x6": "^1.28.1",
+    "@antv/x6-react-shape": "^1.5.2",
+    "antd": "^4.18.8",
+    "axios": "^0.23.0",
+    "core-js": "^3.19.0",
+    "craco-less": "^1.20.0",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.10.7",
+    "echarts": "^5.2.2",
+    "echarts-for-react": "^3.0.1",
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.1",
+    "jira-dev-tool": "^1.6.59",
+    "lodash": "^4.17.21",
+    "qs": "^6.10.1",
+    "rc-virtual-list": "^3.4.2",
+    "react": "^17.0.2",
+    "react-app-polyfill": "^2.0.0",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.26.0",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-table": "^7.7.0",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco jest --port 4000",
+    "eject": "react-scripts eject",
+    "json-server": "json-server --watch --port=8801 ./__json_server__/db.json",
+    "db-server": "node ./__json_server__/server.js",
+    "serve": "node ./server/index.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie > 9"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie > 9"
+    ]
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@craco/craco": "^6.3.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/crypto-js": "^4.1.1",
+    "@types/history": "^4.7.9",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.176",
+    "@types/node": "^12.0.0",
+    "@types/qs": "^6.9.7",
+    "@types/react": "^17.0.30",
+    "@types/react-cookies": "^0.1.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router": "^5.1.17",
+    "@types/react-router-config": "^5.0.3",
+    "@types/react-router-dom": "^5.3.1",
+    "json-server": "0.16.0"
+  }
+}

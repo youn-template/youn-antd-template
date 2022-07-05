@@ -1,0 +1,11 @@
+@import './public.base.css';
+@import './public.scroll';
+
+/* 业务相关的全局样式定义区域 */
+.check-card > .ant-card-head{
+  background-color: #36CFC9 !important ;
+}
+
+/* 地图去掉logo标志 */
+.amap-logo,.amap-copyright{ display: none!important; }
+
