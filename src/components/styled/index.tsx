@@ -5,5 +5,5 @@ export const PageContent = styled.div`
   height: 100vh;
   margin: 0 5rem;
   padding-top: 5rem;
-  background: #f8f8f8;
+  background: #fff;
 `

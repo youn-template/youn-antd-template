@@ -1,5 +1,5 @@
 {
-  "name": "react-ts-basic",
+  "name": "youn-antd-template",
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
@@ -38,10 +38,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco jest --port 4000",
-    "eject": "react-scripts eject",
-    "json-server": "json-server --watch --port=8801 ./__json_server__/db.json",
-    "db-server": "node ./__json_server__/server.js",
-    "serve": "node ./server/index.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
